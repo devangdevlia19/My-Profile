@@ -1,0 +1,99 @@
+ /* tag selector */
+body{
+    background-color:olive;
+}
+img{
+ width: 100px;
+ padding: 25px;
+ background-color: green;
+ 
+height:100px;
+    
+}
+
+p{
+    color: blue;
+    
+
+}
+
+.first_para{
+    color:red;
+}
+
+.red_apple{
+    position:fixed;
+    top:50px;
+    left:5px;
+}
+.green_apple{
+    position:sticky;
+    top:100px;
+    left:5px;
+
+}
+
+.red_apple:hover{
+  
+    background-color: maroon; 
+} 
+
+/* .circular{
+    border-radius: 60px;
+    color:aqua;
+} */
+.circular:hover{
+    border-radius: 60px;
+    background-color: aqua;
+    transition: 500ms;
+}
+#special{
+  background-color: rgb(100,30,120);
+  color:goldenrod;
+  font-weight: bold;
+}
+.ekgroup,h1{
+    font-weight: bold;
+    color:rgb(218,32,113);
+    background-color: rgb(30, 47, 120);
+}
+.apple{
+    color:blue;
+}
+.apple:hover{
+    
+    background-color: gold;
+    color:darkgreen;
+font-weight: bold;
+    
+
+}
+.firstBox{
+    background-color: navy;
+    height:100px;
+    width:100px;
+}
+.secondbox{
+    background-color: maroon;
+    height: 100px;
+    width:100px;
+position: relative;
+top:-80px;
+left:20px;
+
+
+    /* margin-inline-start: 100px; */
+  /*  */
+    /* visibility: hidden; */
+}
+.thirdbox{
+    background-color: violet;
+    height: 100px;
+    width:100px;
+    position: relative;
+top:-160px;
+left:40px;
+    
+    /* margin-inline-start: 200px;
+    margin-block-start: -200px; */
+}
